@@ -9,6 +9,7 @@ def batch_badge_creator (array)
 end
 
 def assign_rooms (array)
+<<<<<<< HEAD
   array.each_with_index.map {|name,i| "Hello, #{name}! You'll be assigned to room #{i + 1}!"}
 end
 
@@ -16,3 +17,11 @@ def printer (array)
   array.each {|name| puts "Hello, my name is #{name}."}
   array.each_with_index {|n,i| puts "Hello, #{n}! You'll be assigned to room #{i + 1}!"}
 end
+=======
+  
+end
+
+def printer
+  
+end
+>>>>>>> fec047e606131c701003624ab0238c7f51e16744
